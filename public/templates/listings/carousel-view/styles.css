@@ -1,0 +1,86 @@
+/* 
+  Listings Carousel View Styles 
+*/
+body.aretk .showcase_carousel a.slide {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    text-decoration: none;
+}
+
+body.aretk .showcase_carousel .listing_openhouse {
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 3px 7px;
+    font-size: 14px;
+    text-align: center;
+}
+
+body.aretk .showcase_carousel .oh_title {
+    display: block;
+}
+
+body.aretk .showcase_carousel .oh_sep {
+    display: none;
+}
+
+body.aretk .showcase_carousel .listing_info {
+    text-align: center;
+    padding: 5px 2px;
+    text-transform: uppercase;
+}
+
+body.aretk .showcase_carousel .property_link {
+    position: relative;
+}
+
+body.aretk .showcase_carousel .img_wrap {
+    background-color: #444;
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    background-size: cover;
+    background-position: 0% 50%;
+    padding-bottom: 66.66%;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+body.aretk .showcase_carousel .img_wrap img {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    opacity: 0 !important;
+    zoom: 1;
+    filter: alpha(opacity=0);
+}
+
+body.aretk .showcase_carousel a:hover .img_wrap {
+    transform: scale(1.05);
+}
+
+body.aretk .showcase_carousel a:hover .img_wrap img {
+    transform: scale(2);
+}
+
+body.aretk .showcase_carousel .listing_openhouse {
+    width: 100%;
+}
+
+body.aretk .showcase_carousel .listing_openhouse .oh_title {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+}

@@ -1,0 +1,282 @@
+body.aretk .prop-listing {
+    border: 1px solid #EFEFEF;
+}
+
+body.aretk .prop-listing .listing-img-con {
+    border-right: 1px solid #EFEFEF;
+    background-color: #efefef;
+    max-height: 160px;
+    min-height: 120px;
+    overflow: hidden;
+    text-align: center;
+}
+
+body.aretk .prop-listing .listing-img-con a {
+    display: inline-block;
+}
+
+body.aretk .prop-listing .aret-row .aret-col-3.pr {
+    display: inline-block;
+    float: left;
+}
+
+body.aretk .prop-listing .aret-icon.star {
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    background: url(images/star-icon.png);
+}
+
+body.aretk #paging_container_listing {
+    padding: 0;
+    width: auto;
+}
+
+body.aretk .prop-listing .aret-row a.property_link img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+    box-shadow: inherit;
+}
+
+body.aretk .prop-listing img {
+    max-width: 100%;
+    height: auto;
+    min-height: 130px;
+    width: 100%;
+}
+
+body.aretk .prop-listing .info-box {
+    padding: 10px 0px 0px 0;
+    margin-bottom: 30px;
+}
+
+body.aretk .prop-listing .info-box h2.listing_address {
+    margin: 0;
+    font-size: 14px !important;
+    padding-left: 0px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Lato', 'sans-serif';
+}
+
+body.aretk .listing_openhouse {
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 3px 7px;
+    font-size: 14px;
+}
+
+body.aretk .prop-listing .info-box h4 {
+    margin: 0;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+body.aretk .prop-listing .info-box p {
+    padding-bottom: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0px;
+}
+
+body.aretk .prop-listing .info-box h4.default_listing_mlsID {
+    bottom: 1px;
+    padding: 3px 0;
+    top: 0;
+}
+
+body.aretk .prop-listing.default.pr {
+    margin: 16px 0 0 0;
+}
+
+body.aretk .prop-listing.default.pr .menu {
+    position: absolute;
+    background-color: #3c90be;
+    color: #fff;
+    font-size: 22px;
+    width: 43px;
+    display: none;
+    padding: 5px 0 5px 1px;
+    border-radius: 3px;
+    top: auto;
+    right: 10px;
+    bottom: 37px;
+}
+
+body.aretk div.prop-listing a {
+    text-decoration: none;
+    border-bottom: 0px;
+    box-shadow: inherit;
+}
+
+body.aretk .footer-info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top: 1px solid #EFEFEF;
+    padding: 5px 0;
+    width: 74.059%
+}
+
+body.aretk .footer-info span {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+body.aretk .info-bar {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+body.aretk .info-bar span {
+    display: inline-block;
+    padding: 0px;
+    line-height: 18px;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding-right: 7px !important;
+    min-height: 18px;
+}
+
+body.aretk .info-bar span.bed {
+}
+
+body.aretk .info-bar span.bathroom {
+}
+
+body.aretk .prop-listing .info-bar i.fa {
+    margin-right: 5px;
+    vertical-align: baseline;
+}
+
+body.aretk .prop-listing .footer-info i.fa {
+    vertical-align: baseline;
+}
+
+body.aretk .footer-info .aret-icon.share {
+    float: right;
+    width: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+body.aretk .prop-listing .aret-row > div:last-child, body.aretk .no-mar-right {
+    margin-right: 0 !important;
+}
+
+body.aretk .footer-info span.listing_status {
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.listing_openhouse {
+    text-align: center;
+}
+
+body.aretk .oh_title {
+    display: block;
+}
+
+body.aretk .oh_sep {
+    display: none;
+}
+
+body.aretk .listings_disclaimer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 10px;
+}
+
+body.aretk .listings_disclaimer p {
+    line-height: 14px;
+    text-align: center;
+    font-size: 10px;
+}
+
+body.aretk .listings_disclaimer > div {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    body.aretk .prop-listing .info-box {
+        padding-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    body.aretk .prop-listing .info-box h4.default_listing_mlsID {
+        padding: 0px;
+    }
+
+    body.aretk .info-bar {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.aretk .footer-info span.listing_status {
+        padding: 0px 10px;
+    }
+
+    body.aretk .prop-listing .aret-row .aret-col-3 {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    body.aretk .prop-listing .aret-row .aret-col-9.no-mar-right {
+        width: 100%;
+    }
+
+    body.aretk .prop-listing .listing-img-con {
+        border-right: none;
+        max-height: none;
+        min-height: 120px;
+        overflow: visible;
+        border-bottom: 1px solid #EFEFEF;
+    }
+
+    body.aretk .prop-listing .aret-row .footer-info.aret-col-9 {
+        width: 100%;
+        position: inherit;
+    }
+
+    body.aretk .prop-listing .aret-icon.star {
+        top: 100% !important;
+        right: 0;
+        left: 50%;
+        margin-left: -25px;
+    }
+
+    body.aretk .prop-listing .info-box {
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 0;
+    }
+
+    body.aretk .prop-listing .listing_openhouse {
+        text-align: center;
+        display: block;
+        position: relative;
+    }
+
+    body.aretk .prop-listing .oh_title {
+        display: inline;
+    }
+
+    body.aretk .prop-listing .oh_sep {
+        display: inline;
+    }
+}

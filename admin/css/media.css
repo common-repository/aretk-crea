@@ -1,0 +1,102 @@
+@media screen and (max-width: 1169px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    /*crea lead*/
+    p.search-box {
+        margin-bottom: 15px;
+    }
+
+    .alignleft.actions {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .prop-listing .aret-row .aret-col-3 {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .prop-listing .aret-row .aret-col-9.no-mar-right {
+        width: 100%;
+    }
+
+    .prop-listing .aret-row .footer-info.aret-col-9 {
+        width: 100%;
+    }
+
+    table#set_property_showcasetable_id tr {
+        width: 320px;
+        display: block !important;
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    table#set_property_showcasetable_id {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    .prop-listing .aret-icon.star {
+        top: 100% !important;
+        right: 0;
+        left: 45%;
+    }
+
+    table#set_property_showcasetable_id tbody {
+        display: block;
+    }
+
+    /*show-gried-view*/
+    .property-listing.grid-view.pr .aret-row .grid-view-box.pr.aret-col-3 {
+        width: 47%;
+    }
+
+    /*edit leads*/
+    /*.crea-create-new-leads .crea_leads_left_part_html {width: 100%;}
+    .crea-create-new-leads .crea_lead_right_part_html {width: 100%; display: inline-block;}
+    .crea-create-new-leads .crea_lead_right_part_html .lead_reminder {display: inline-block; width: auto !important; float: none !important; margin-left: 0px !important;}
+    .crea_lead_right_part_html #crea_add_new_correspondence_body_content.button.button-primary {margin-left: 140px;}*/
+
+}
+
+@media screen and (max-width: 559px) {
+    /*show-gried-view*/
+    .property-listing.grid-view.pr .aret-row .grid-view-box.pr.aret-col-3 {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .search-box .aret-row .aret-col-3 {
+        width: auto;
+        margin-right: 3px !important;
+    }
+
+    /*property listing*/
+    .dataTables_paginate.paging_full_numbers a {
+        padding: 3px 9px;
+        margin-bottom: 10px !important;
+        display: inline-block;
+        margin-left: 0px;
+    }
+
+    div#set_property_showcasetable_id_wrapper {
+        display: inline-block;
+        width: 100%;
+    }
+
+    div#set_property_showcasetable_id_wrapper .dataTables_paginate.paging_full_numbers {
+        margin-bottom: 40px;
+    }
+}

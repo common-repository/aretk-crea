@@ -1,0 +1,29 @@
+/* Listings Template - Gred View Styles */
+body.aretk .property-grid-main{display:block;background-color:#fff;border:1px solid #ddd;}
+body.aretk .property-grid-main .heading{padding:10px;display:inline-block;width:100%;background-color:#7BD4E2;text-align:center;position:relative;box-sizing:border-box;}
+body.aretk .property-grid-main .heading h3{color:#fff;text-transform:uppercase;font-size:10px;font-weight:normal;margin:0px;line-height:15px;margin-bottom:7px;}
+body.aretk .property-grid-main .heading span{color:#fff;font-size:10px;font-weight:100;line-height:13px;display:block;}
+body.aretk .property-grid-main .footer-info{border:0px;display:inline-block;width:100%;position:inherit;padding:0;border-top:1px solid #f1efef;vertical-align:top;}
+body.aretk .property-grid-main .footer-info-in{padding:0 8px;}
+body.aretk .property-grid-main .footer-info span{font-weight:400;font-size:14px;font-weight:400;}
+body.aretk .property-grid-main .info-bar{padding:8px;box-sizing:border-box;}
+body.aretk .property-grid-main .inner-head{height:40px;}
+body.aretk .aretk_listings #listings_resultset{margin:15px 0;display:inline-block;}
+body.aretk .aretk_listings.container{margin:0;padding:0;width:auto;}
+body.aretk .aretk_listings .grid-view h2.listing_address{display:block;font-family:"Lato","sans-serif";font-size:15px !important;font-weight:700;height:40px;line-height:normal;margin:0;padding-left:0;overflow:hidden;}
+body.aretk .aretk_listings .grid-view h3.listing_mlsID{display:block;font-family:"Lato","sans-serif";font-size:14px;font-weight:400;line-height:normal;margin:0;padding-left:0}
+body.aretk .aretk_listings .grid-view .info-box{padding:8px;}
+body.aretk .aretk_listings .grid-view .info-bar{display:block;padding:0px;line-height:18px;margin:2px 0 0 0;height:18px;}
+body.aretk .aretk_listings .grid-view .info-bar span{display:inline-block;font-size:14px;}
+body.aretk .aretk_listings .grid-view .info-bar span.bed{float:left;}
+body.aretk .aretk_listings .grid-view .info-bar span.bathroom{float:right;}
+body.aretk .aretk_listings .grid-view i.fa{margin-right:5px;vertical-align:baseline;}
+body.aretk .property-listing.grid-view.pr ul.content li.grid-view-box{overflow:hidden;margin-bottom:30px;}
+body.aretk .property-listing.grid-view.pr ul.content li.grid-view-box div.listing_wrap .property-image{overflow:hidden;position:relative;}
+body.aretk .aretk_listings .grid-view .listing_openhouse{position:absolute;bottom:0;width:100%;text-align:center;padding:2px 0 3px;}
+body.aretk .property-listing.grid-view.pr ul.content li.grid-view-box div.property-image a{background-color:#444;display:block;width:100%;height:100%;vertical-align:top;background-size:cover;background-position:0% 50%;padding-bottom:66.66%;overflow:hidden;transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s;-o-transition:all 0.5s;-moz-transition:all 0.5s;}
+body.aretk .property-listing.grid-view.pr ul.content li.grid-view-box div.property-image img{display:inline-block;position:absolute;width:100%;height:60%;opacity:0 !important;zoom:1;filter:alpha(opacity=0);}
+body.aretk .property-listing.grid-view.pr ul.content li.grid-view-box div.property-image a:hover{transform:scale(1.07);}
+body.aretk .property-listing.grid-view.pr ul.content li.grid-view-box div.property-image a:hover img{transform:scale(3);}
+body.aretk .property-grid-main .footer-info span.listing_status{text-transform:uppercase;float:left;}
+body.aretk .property-grid-main .footer-info span.listing_price{float:right;}

@@ -1,0 +1,86 @@
+/* 
+  Listings Map View Styles 
+*/
+body.aretk .crea_showcase_map_wrap .aretk_property_search_wrap .div_search_box{
+margin:0;
+}
+
+body.aretk .crea_showcase_map{
+position:relative;
+background-color:#333;
+}
+body.aretk .crea_showcase_map .property_result_count{
+position:absolute;
+top:0;
+right:0;
+color:#fff;
+padding:2px 15px;
+font-size:12px;
+background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+background: rgba(0, 0, 0, 0.5);
+}
+/* Infow Window */
+.propertyinfobox {
+min-width:190px;
+}
+.propertyinfobox a{
+color:#000;
+text-decoration:none;
+}
+.propertyinfobox .img_wrap {
+background-color:#444;
+display:block;
+width:100%;
+height:100%;
+vertical-align: top;
+background-size:cover; 
+background-position:0% 50%;
+padding-bottom: 66.66%;  
+overflow:hidden !important;  
+transition:all 0.5s ease-in-out;  
+-webkit-transition:all 0.5s ;  
+-o-transition:all 0.5s ;  
+-moz-transition:all 0.5s;
+margin-bottom:5px;
+}
+.propertyinfobox .img_wrap img{
+display:inline-block;
+position:absolute;
+width: 100%;
+height: 60%;
+opacity: .0 !important;
+zoom: 1;
+filter: alpha(opacity=0);
+}
+.propertyinfobox a:hover .img_wrap {
+transform: scale(1.05);
+}
+.propertyinfobox a:hover .img_wrap img{transform: scale(2);}
+.propertyinfobox .listing_openhouse{
+background-color:#000;
+color:#fff;
+padding:4px;
+text-align:center;
+}
+.propertyinfobox .listing_openhouse .oh_title{
+display:block;
+}
+.propertyinfobox .listing_openhouse .oh_sep{
+display:none;
+}
+.propertyinfobox .img_wrap img{
+width:100%;
+}
+.propertyinfobox .info_box.info_address{
+/*display:none;*/
+}
+.propertyinfobox .info_box.info_status{
+display:block;
+}
+.propertyinfobox .info-bar span{
+display:inline-block;
+width:49%;
+}
+.info-bar i{
+margin-right:3px;
+}

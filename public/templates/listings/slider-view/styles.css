@@ -1,0 +1,162 @@
+/* 
+  Listings Slider View Styles 
+*/
+body.aretk .crea_showcase_slider a.slide {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+body.aretk .crea_showcase_slider a.slide figure {
+    background-color: #444;
+    display: block;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    background-size: cover;
+    background-position: 0% 50%;
+    padding-bottom: 60.0%; /* Change this to change slider height */
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+body.aretk .crea_showcase_slider a.slide figure figcaption {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+body.aretk .crea_showcase_slider a.slide figure img {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    /*height: 100%;*/
+    height: auto;
+    zoom: 1;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0 !important;
+}
+
+body.aretk .crea_showcase_slider a.slide:hover figure {
+    transform: scale(1.02);
+}
+
+body.aretk .crea_showcase_slider a.slide .listing_info {
+    text-align: center;
+    padding: 5px 2px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    filter: alpha(opacity=0.9);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.9)";
+    opacity: 0.9 !important;
+    padding: 5px 10px;
+    line-height: normal;
+}
+
+body.aretk .crea_showcase_slider a.slide:hover .listing_info {
+    filter: alpha(opacity=1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    opacity: 1 !important;
+}
+
+body.aretk .crea_showcase_slider .listing_info h3 {
+    font-size: 15px;
+    padding: 0px;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+
+body.aretk .crea_showcase_slider .listing_info .listing_openhouse {
+    margin: 5px 0 2px 0;
+    padding: 0 5px;
+}
+
+body.aretk .crea_showcase_slider .listing_info .info-bar {
+    margin-bottom: 2px;
+}
+
+body.aretk .crea_showcase_slider .listing_info .info-bar span:first-child {
+    margin-right: 20px;
+}
+
+body.aretk .crea_showcase_slider .listing_info i.fa {
+    margin-right: 5px;
+}
+
+body.aretk .crea_showcase_slider .listing_info .listing_statusprice {
+    margin-bottom: 2px;
+}
+
+body.aretk .crea_showcase_slider .listing_info .listing_statusprice span {
+    font-size: larger;
+}
+
+#bar {
+    width: 0%;
+    max-width: 100%;
+    height: 4px;
+    background: #7fc242;
+}
+
+#progressBar {
+    width: 100%;
+    background: #EDEDED;
+}
+
+@media screen and (max-width: 991px) {
+    body.aretk .crea_showcase_slider a.slide .listing_info {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body.aretk .crea_showcase_slider a.slide .listing_info {
+        right: 5px;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body.aretk .crea_showcase_slider a.slide .listing_info {
+        right: 0px;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body.aretk .crea_showcase_slider a.slide .listing_info {
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+        font-size: 11px;
+        padding: 2px 0;
+    }
+
+    body.aretk .crea_showcase_slider .listing_info h3 {
+        font-size: 11px;
+        margin: 0;
+        padding: 0;
+    }
+
+    body.aretk .crea_showcase_slider .listing_info .listing_statusprice,
+    body.aretk .crea_showcase_slider .listing_info .info-bar,
+    body.aretk .crea_showcase_slider .listing_info .listing_openhouse {
+        display: none;
+    }
+}

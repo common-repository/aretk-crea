@@ -1,0 +1,209 @@
+.aretk-wrap.aretk_property_search_wrap .aretklistings_search_r1 {
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.aretk-wrap.aretk_property_search_wrap .aretklistings_search_r1 .aretk_col1 {
+    width: 80%;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+}
+
+.aretk-wrap.aretk_property_search_wrap .aretklistings_search_r1 .aretk_col2 {
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 32px;
+    line-height: 26px;
+}
+
+.aretk-wrap.aretk_property_search_wrap #aretk_listing_searching_btn {
+    width: 100%;
+    padding: 7px 0 7px;
+    font-size: 14px;
+    font-weight: normal;
+	border:none;
+	cursor:pointer;
+}
+
+.aretk-wrap.aretk_property_search_wrap #aretk_listing_keyword_search {
+    width: 99%;
+}
+
+.aretk-wrap.aretk_property_search_wrap #aretk_listing_keyword_search::-webkit-input-placeholder {
+    color: #888 !important;
+    opacity: 1;
+}
+
+.aretk-wrap.aretk_property_search_wrap #aretk_listing_keyword_search::-moz-placeholder {
+    color: #888 !important;
+    opacity: 1;
+}
+
+.aretk-wrap.aretk_property_search_wrap #aretk_listing_keyword_search:-ms-input-placeholder {
+    color: #888 !important;
+    opacity: 1;
+}
+
+.aretk-wrap.aretk_property_search_wrap #aretk_listing_keyword_search:-moz-placeholder {
+    color: #888 !important;
+    opacity: 1;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content .aretk_listings_filter_wrap {
+    float: left;
+    width: 25%;
+    margin-bottom: 6px;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content.advance_search_counter3 .aretk_listings_filter_wrap,
+body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content.advance_search_counter5 .aretk_listings_filter_wrap {
+    width: 33%;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content.advance_search_counter2 .aretk_listings_filter_wrap {
+    width: 50%;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content.advance_search_counter1 .aretk_listings_filter_wrap {
+    width: 100%;
+}
+
+body.aretk #advance_search_content .aretk_listings_filter_con {
+    padding-right: 6px;
+}
+
+body.aretk #advance_search_content.advance_search_counter7 .aretk_listings_filter_wrap:nth-child(4) .aretk_listings_filter_con {
+    padding-right: 0px;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content .aretk_listings_filter_wrap select {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 13px;
+    font-family: Arial;
+    padding: 6px;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap div#searching-slider-range_wrap {
+    padding: 0 8px;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap .ui-slider-horizontal .ui-slider-handle {
+    top: -0.2em;
+    cursor: pointer;
+}
+
+body.aretk .textwidget .aretk_property_search_wrap .aretklistings_search_r1 .aretk_col1 {
+    float: none;
+    width: 100%;
+}
+
+body.aretk .textwidget .aretk_property_search_wrap .aretklistings_search_r1 .aretk_col2 {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+body.aretk .textwidget .aretk-wrap.aretk_property_search_wrap #aretk_listing_keyword_search {
+    width: 100%;
+    float: none;
+    margin: 0;
+}
+
+body.aretk .textwidget .aretk-wrap.aretk_property_search_wrap #advance_search_content .aretk_listings_filter_wrap {
+    float: none;
+    width: 100%;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap ul {
+    padding-left: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap ul.chosen-results {
+    padding-left: 0;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap ul a {
+    box-shadow: none;
+}
+
+.aretk-wrap.aretk_property_search_wrap .chosen-container {
+    width: 100%;
+}
+
+.aretk-wrap.aretk_property_search_wrap .chosen-container input.default {
+    color: #000000 !important;
+    margin-left: 10px !important;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap input[type="text"] {
+    font-weight: 400;
+    text-transform: none;
+}
+
+body.aretk .aretk-wrap.aretk_property_search_wrap .chosen-container-multi .chosen-choices {
+    background-image: none;
+	padding:0 0 1px 5px !important;  
+}
+body.aretk .aretk-wrap.aretk_property_search_wrap .chosen-container-multi .chosen-results {
+    background-image: none;
+	padding:0 0 1px 0px !important;  
+}
+
+/*body.aretk #aretk_listings_filter_property_type_chosen ul,
+body.aretk #aretk_listings_filter_property_type_chosen ul li{  margin:0; padding:0 }*/
+@media screen and (max-width: 700px) {
+    body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content .aretk_listings_filter_wrap {
+        width: 50%;
+    }
+
+    body.aretk #advance_search_content.advance_search_counter7 .aretk_listings_filter_wrap:nth-child(2) .aretk_listings_filter_con {
+        padding-right: 0px;
+    }
+
+    body.aretk .advance_exculed_searchbox .crea_searching_price_slider_main > p {
+        display: block;
+        margin: 0;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body.aretk .aretk-wrap.aretk_property_search_wrap #aretk_listing_searching_btn {
+        font-size: 11px;
+    }
+
+    body.aretk .aretk-wrap.aretk_property_search_wrap #advance_search_content .aretk_listings_filter_wrap {
+        width: 100%;
+    }
+
+    body.aretk #advance_search_content.advance_search_counter7 .aretk_listings_filter_wrap .aretk_listings_filter_con {
+        padding-right: 0px;
+    }
+
+    body.aretk .aretk-wrap.aretk_property_search_wrap .aretklistings_search_r1 .aretk_col2 {
+        line-height: 22px;
+    }
+
+    body.aretk .aretk-wrap.aretk_property_search_wrap .aretklistings_search_r1 .aretk_col1 {
+        width: 100%;
+        float: none;
+    }
+
+    body.aretk .aretk-wrap.aretk_property_search_wrap .aretklistings_search_r1 .aretk_col2 {
+        width: 100%;
+        float: none;
+    }
+}

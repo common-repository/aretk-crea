@@ -1,0 +1,657 @@
+body.aretk .listing-detail-main {
+    padding-top: 0px;
+}
+
+body.aretk .custom-accordian .aco-con {
+    padding: 8px 28px 0 20px;
+    border: 1px solid #f3f0f0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-top: 0;
+	backround-color:#ffffff;
+}
+
+body.aretk .aco-con.Listing_room_title_con {
+    padding: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.aretk-wrap .listing-detail-main .list-bottom-left {
+    text-align: left;
+}
+
+body.aretk #virtualtour_link {
+    margin: 30px 0;
+}
+
+body.aretk #virtualtour {
+    margin: 30px 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+body.aretk .aretk-embedvideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body.aretk .list-bottom-right {
+    display: inline-block;
+    float: right;
+    padding-top: 0px;
+}
+
+body.aretk .list-bottom-right ul li {
+    display: inline-block;
+}
+
+body.aretk .list-bottom-right ul li a {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../../../images/top-social-icon.png) no-repeat;
+}
+
+body.aretk .list-bottom-right ul li a.fb {
+    background-position: -25px 0px;
+}
+
+body.aretk .list-bottom-right ul li a.twit {
+    background-position: -52px 0px;
+}
+
+body.aretk .list-bottom-right ul li a.gplus {
+    background-position: -82px 0px;
+}
+
+body.aretk .list-bottom-right ul li a.printerest {
+    background-position: -110px 0px;
+}
+
+body.aretk .list-bottom-right a.printfriendly {
+    background-position: 0 0;
+}
+
+body.aretk .list-bottom-right a {
+    box-shadow: none;
+}
+
+body.aretk .author-bottom-block {
+    background: #EFEFEF;
+    width: 210px;
+    height: 35px;
+}
+
+body.aretk .author-bottom-block ul {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    padding-top: 5px;
+}
+
+body.aretk .author-bottom-block ul li {
+    display: inline-block;
+}
+
+body.aretk .author-bottom-block ul li a {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background: url(../../../images/social-icon.png) no-repeat;
+}
+
+body.aretk .author-bottom-block ul li a.twittew {
+    background-position: -35px 0px;
+}
+
+body.aretk .author-bottom-block ul li a.linkedin {
+    background-position: -70px 0px;
+}
+
+body.aretk .author-bottom-block ul li a.pinterest {
+    background-position: -107px 0px;
+}
+
+body.aretk .listing-detail-right {
+    float: right;
+    width: 24%;
+    vertical-align: top;
+}
+
+body.aretk .listing-detail-left {
+    float: left;
+    width: 75%;
+    text-align: left;
+}
+
+body.aretk .listing-detail-left.contactform_no.agentinfo_no {
+    width: 100%;
+}
+
+body.aretk .listing-detail-right .author-detail-block {
+    border: 1px solid #F3F0F0;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 0px 0px #ccc;
+    border-radius: 3px;
+    background: #fafafa;
+    display: inline-block;
+}
+
+body.aretk .author-detail-block .author-inner-block {
+    padding: 0 12px 7px;
+}
+
+body.aretk .author-detail-block .author-inner-block h4 {
+    margin: 0px;
+    color: #444;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+body.aretk .author-detail-block .author-inner-block em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: #828080;
+    margin-bottom: 10px;
+}
+
+body.aretk .author-detail-block .author-inner-block span {
+    display: block;
+    font-size: 14px;
+    color: #888686;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 19px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+body.aretk .author-detail-block .author-inner-block em.agentemail a,
+body.aretk .author-detail-block .author-inner-block em.agentemail a:link,
+body.aretk .author-detail-block .author-inner-block em.agentemail a:visited,
+body.aretk .author-detail-block .author-inner-block span.agentphone a,
+body.aretk .author-detail-block .author-inner-block span.agentphone a:link,
+body.aretk .author-detail-block .author-inner-block span.agentphone a:visited {
+    color: #000;
+    box-shadow: none;
+}
+
+body.aretk .author-detail-block .author-inner-block .listing_detail_office span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body.aretk .listing-detail-right .contact-block {
+    border: 1px solid #F3F0F0;
+    box-shadow: 0px 2px 0px 0px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+body.aretk .listing-detail-left p {
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+
+body.aretk .propety_image {
+    float: none;
+    margin-bottom: 30px;
+}
+
+body.aretk .propety_image #gallery-1.royalSlider {
+    width: 100%;
+    background: transparent;
+}
+
+body.aretk .rsDefault .rsThumb.rsNavSelected, .rsDefault .rsThumb {
+    margin-right: 1px !important;
+}
+
+body.aretk .rsDefault .rsThumbsHor {
+    height: 69px !important;
+    border-top: 1px solid #000;
+}
+
+body.aretk .rsThumbsContainer .rsNavItem.rsThumb.rsNavSelected {
+    background: none;
+}
+
+body.aretk .rsDefault .rsThumbsHor .rsThumbsArrow.rsThumbsArrowLeft.rsThumbsArrowDisabled {
+    display: block !important;
+}
+
+body.aretk .propety_image #gallery-1 .rsNav.rsThumbs.rsThumbsHor .rsThumbsArrow.rsThumbsArrowRight.rsThumbsArrowDisabled {
+    display: block !important;
+}
+
+body.aretk .rsDefault .rsThumb.rsNavSelected img {
+    opacity: inherit !important;
+}
+
+body.aretk .rsDefault .rsThumb img {
+    opacity: 0.7;
+}
+body.aretk .rsDefault .rsThumb img:hover {
+    opacity: 1;
+}
+
+body.aretk .rsDefault .rsBullet.rsNavSelected span {
+    background-color: #FFF;
+    display: none;
+}
+
+body.aretk .contact-detail {
+    padding: 10px;
+    background: #fafafa;
+}
+
+body.aretk .contact-block .contact-detail h4 {
+    margin: 0px;
+    margin-bottom: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444;
+}
+
+body.aretk .contact-detail input,
+body.aretk .contact-detail textarea {
+    font-size: 13px;
+    margin-bottom: 0px;
+    width: 100%;
+    border: 1px solid #F3F0F0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    padding: 6px
+}
+
+body.aretk .contact-detail form a.send-btn {
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #0FB1A2;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.28);
+    margin-bottom: 5px;
+}
+
+body.aretk .custom-accordian {
+    margin: 30px 0;
+}
+
+body.aretk .custom-accordian .aco-title span {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    background: #fafafa;
+    position: relative;
+    padding: 8px 28px 8px 20px;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #444;
+    line-height: 17px;
+}
+
+body.aretk .custom-accordian .aco-title span em {
+    position: absolute;
+    border-right: 5px solid transparent;
+    right: 15px;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #000;
+    top: 14px;
+}
+
+body.aretk .custom-accordian .aco-con.active {
+    display: block;
+}
+
+body.aretk .custom-accordian .aco-con ul li {
+    margin-bottom: 5px;
+    list-style-type: none;
+    color: #444;
+}
+
+body.aretk .custom-accordian .aco-con ul li.list_feature {
+    display: inline-block;
+    padding: 10px 0;
+    width: 30%;
+}
+
+body.aretk .custom-accordian .aco-title.open span em {
+    border-bottom: 5px solid #000;
+    border-top: none;
+}
+
+body.aretk .listed-by-detail-block {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+body.aretk .aretk-wrap .listing-detail-main .list-bottom-left span#propstatus {
+    text-transform: uppercase;
+}
+
+body.aretk .listed-by-detail-block p {
+    margin-bottom: 0px !important;
+    font-weight: 600;
+    color: #444;
+    font-size: 15px;
+    padding: 7px 20px;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 100%, rgba(0, 0, 0, 0.01) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(90%, rgba(215, 215, 215, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.01)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 90%, rgba(0, 0, 0, 0.01) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 90%, rgba(0, 0, 0, 0.01) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 90%, rgba(0, 0, 0, 0.01) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 90%, rgba(0, 0, 0, 0.01) 100%);
+    border-top: 1px solid rgba(55, 55, 55, .06);
+}
+
+body.aretk .listed-by-detail-block p > em {
+    font-size: 14px;
+    color: #444;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+body.aretk .listed-by-detail-block p:first-child {
+    border-top: 0px;
+    margin: 7px 0px !important;
+    padding: 0px 20px;
+}
+
+body.aretk .info-bar span:last-child {
+    border-right: 0px !important;
+}
+
+body.aretk .listing-box .bot-data span.bed {
+    margin: 0 5px 0 0;
+}
+
+body.aretk .aco-con.Listing_room_title_con span {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    color: #444;
+}
+
+body.aretk .aco-con.Listing_room_title_con p {
+    border-top: 1px solid rgba(55, 55, 55, .06);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 100%, rgba(0, 0, 0, 0.01) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(100%, rgba(215, 215, 215, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.01)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 100%, rgba(0, 0, 0, 0.01) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 100%, rgba(0, 0, 0, 0.01) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 100%, rgba(0, 0, 0, 0.01) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0, rgba(215, 215, 215, 0.1) 100%, rgba(0, 0, 0, 0.01) 100%);
+    margin-bottom: 0px !important;
+    padding: 7px 20px;
+    font-size: 14px;
+}
+
+body.aretk .aco-con.Listing_room_title_con span.Listing_room_title_con_room {
+    font-size: 14px;
+}
+
+body.aretk .aco-con.Listing_room_title_con span.Listing_room_title_con_dimension {
+    font-size: 14px;
+}
+
+body.aretk .listing-detail-left.disclaimers {
+    border: 1px solid #f3f0f0;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 0 #ccc;
+    background: #fafafa none repeat scroll 0 0;
+}
+
+body.aretk .listing-detail-left.disclaimers .realtor-mls-logos {
+    padding: 15px 0;
+}
+
+body.aretk .term_condition {
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+
+body.aretk .term_condition .disclaimer {
+    text-align: left;
+}
+
+body.aretk #aretk_crea_disclaimer_container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 15%;
+    z-index: 1001;
+}
+
+body.aretk #aretk_crea_disclaimer_container #aretk_crea_disclaimer_content {
+    margin: auto;
+    width: 75%;
+}
+
+body.aretk #aretk_crea_disclaimer_container #aretk_crea_disclaimer_content h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+
+body.aretk #aretk_crea_disclaimer_container #aretk_crea_disclaimer_content p {
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+body.aretk #aretk_crea_disclaimer_container #aretk_crea_disclaimer_content #aretk_crea_disclaimer_btns {
+    margin-top: 20px;
+}
+
+body.aretk #aretk_crea_disclaimer_background {
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background: black;
+    opacity: 0.9;
+}
+
+body.aretk .custom_listing_content_subscription_active p {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #efefef;
+    padding-top: 20px;
+}
+
+#ws-walkscore-tile {
+    position: relative;
+    text-align: left
+}
+
+#ws-walkscore-tile * {
+    float: none;
+}
+
+body.aretk .walkscore_disclaimer {
+    font-size: 13px;
+}
+
+body.aretk div#crea_listing_contact_table .set_contact_form_valid {
+    color: red;
+    margin: 0 0 5px 0px;
+    font-size: 13px;
+    border-top: 1px solid red;
+}
+
+body.aretk div#crea_listing_contact_table .crea_listing_contact_tr {
+    margin-bottom: 10px
+}
+
+body.aretk div#crea_listing_contact_table .crea_listing_contact_tr.last {
+    margin-bottom: 0px
+}
+
+body.aretk div#crea_listing_contact_table .g-recaptcha {
+    transform: scale(0.70);
+    -webkit-transform: scale(0.70);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    margin-bottom: -15px;
+}
+
+body.aretk .crea_listing_contact_td textarea#crea_contact_details_agent_message {
+    height: 117px;
+    font-size: 11px;
+    background-color: #fff;
+    overflow: hidden;
+    color: #000;
+}
+
+body.aretk .contact-detail textarea#crea_contact_details_agent_message2 {
+    display: none;
+}
+
+body.aretk .sucessfullyaddedrecords {
+    border: 2px solid green;
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    line-height: 21px;
+    margin-bottom: 10px;
+    color: green;
+    background-color: #ffffff;
+}
+
+body.aretk .noaddedrecords {
+    border: 2px solid red;
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    line-height: 21px;
+    margin-bottom: 10px;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+body.aretk .contact-detail .loader {font-size: 13px;display: none;color: #000000;}
+body.aretk .realtor-mls-logos #poweredbyrealtorimg{vertical-align:top;background-color:#ffffff;margin-left:15px;}
+body.aretk .term_condition,body.aretk .term_condition a,body.aretk .term_condition a:link,body.aretk .term_condition a:visited{ color:#666666;}
+body.aretk .term_condition a:hover{
+ text-decoration:underline;   
+}
+@media screen and (max-width: 1024px) {
+    body.aretk .listing-detail-left {
+        width: 100%;
+    }
+
+    body.aretk .list-bottom-head .list-bottom-left {
+        width: auto;
+        display: block;
+    }
+
+    body.aretk .list-bottom-right {
+        padding-top: 5px;
+    }
+
+    body.aretk .for_mobile_view .author-detail-block {
+        margin-bottom: 30px;
+        box-shadow: 0px 2px 0px 0px #ccc;
+        border-radius: 3px;
+        width: 215px;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+    }
+
+    body.aretk .listing-detail-right {
+        display: block;
+        width: 100%;
+    }
+
+    body.aretk .listing-detail-right .author-detail-block {
+        display: block
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body.aretk #aretk_crea_disclaimer_container {
+        position: absolute;
+        top: -4%;
+    }
+
+    body.aretk #aretk_crea_disclaimer_container #aretk_crea_disclaimer_content {
+        width: 98%;
+    }
+
+    body.aretk #aretk_crea_disclaimer_container #aretk_crea_disclaimer_content h2 {
+        color: #ffffff;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    body.aretk #aretk_crea_disclaimer_container #aretk_crea_disclaimer_content p {
+        font-size: 13px;
+        margin-bottom: 10px;
+        text-align: left;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body.aretk #aretk_crea_disclaimer_container {
+        position: absolute;
+        top: -2%;
+    }
+}
+
+@media print {
+    body.aretk .listing-detail-main .rsThumbsHor,
+    body.aretk .listing-detail-main .contact-block,
+    body.aretk .listing-detail-main #virtualtour_link a.ldvtbtn,
+    body.aretk .listing-detail-main .list-bottom-right,
+    body.aretk .custom-accordian em,
+    body.aretk div#mapPropertyDetail,
+    body.aretk div#mapPropertyDetailpano, footer,
+    header {
+        display: none !important;
+    }
+
+    body.aretk header.entry-header {
+        display: block !important;
+    }
+
+    body.aretk .listing-detail-right, body.aretk .listing-detail-left {
+        width: 100% !important;
+        float: none;
+    }
+}
